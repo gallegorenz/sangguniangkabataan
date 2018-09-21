@@ -2,7 +2,24 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	overflow-x: hidden;
 
+}
+
+
+@font-face {
+    font-family: "built";
+    src:url("../font/built titling bd.ttf");
+}
+
+@font-face {
+    font-family: "dead";
+    src:url("../font/Dead Stock - Demo.ttf");
+}
+
+@font-face {
+    font-family: "code";
+    src:url("../font/CODE Bold.otf");
 }
 
 /*.j hr {
@@ -52,15 +69,20 @@
 } 
 
 #left-cont {
-	background-color: #00459B;
-	/*background-color: #F7C331;*/
+	/*background-color: #00459B;*/
+	background-color: #F7C331;
 	height: 100vh;
 	width: 50vw;
-	animation-delay: 1.5s;
+	animation-delay: 2s;
 	padding: 0;
 	/*animation: none;*/
-	object-fit: cover;
+	object-fit:	cover;
 	overflow: hidden;
+}
+
+.images-r {
+	height: 100%;
+	width: 100%;
 }
 
 #center-cont {
@@ -73,47 +95,177 @@
 	top: 50%;
 	/*transform: translateX(-50%);*/
 	transform: translateY(-50%);
+	overflow: hidden;
 }
 
 #center-left {
 	height: 50vh;
 	width: 50vw;
-	/*background-color: #00459B;*/
-	background-color: #F7C331;
+	background-color: #00459B;
+	/*background-color: #F7C331;*/
 	float: left;
 	/*animation: none;*/
+	object-fit:	cover;
+	overflow: hidden;
+	animation-delay: 1s;
 }
 
 #center-right {
 	height: 50vh;
 	width: 50vw;
-	/*background-color: #980819;*/
-	background-color: #F7C331;
+	background-color: #980819;
+	/*background-color: #F7C331;*/
 	float: left;
 	/*animation: none;*/
+	animation-delay: 1s;
 }
 
 #right-cont {
-	background-color: #980819;
-	/*background-color: #F7C331;*/
+	/*background-color: #980819;*/
+	background-color: #F7C331;
 	height: 100vh;
 	width: 50vw;
-	animation-delay: 1.5s;
+	animation-delay: 2s;
 	padding: 0;
 	/*animation: none;*/
+	overflow: hidden;
+
 }
 
 #center-center {
 	position: absolute;
-	left: 50%;
+	/*left: 50vh;*/
 	z-index: 2;
-	transform: translateX(-50%);
-
-
+	/*transform: translateX(7vh);*/
+	width: 100vw;
+	text-align: center;
+	
 }
 
 .img-center {
 	height: 250px;
 	width: 250px;
 	border-radius: 50% 50%;
+}
+
+.images-SK {
+	float: left;
+	padding-top: 22px;
+	animation-delay: 3.3s;
+	animation-duration: 2s;
+
+}
+
+.landing-text {
+	font-family: 'dead';
+	color: white;
+	font-size: 6em;
+	animation-delay: 3.5s;
+}
+
+#landing-text-qoute {
+	font-family: 'code';
+	color: white;
+	font-size: 2em;
+	animation-delay: 4.5s;
+}
+
+/*start of homepage css*/
+
+a.text-logo {
+	text-decoration: none;
+}
+
+.bg-dark {
+	transition-duration: 2s;
+	transition: all linear .25s;
+}
+
+video#bgvid {
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100vw; 
+  /*min-height: 100vh;*/
+  width: auto; 
+  height: auto;
+  z-index: -100;
+  top: 0;
+  margin-top: -8.5vh;
+ /* background:url(../images/ss-isangboto.png) no-repeat;
+  background-size: cover;*/
+}
+
+
+
+
+#body-container {
+	position: absolute;
+	top: 67vh; 
+	background-color: white;
+	height: 100vh;
+	width: 100vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*mobile style*/
+@media only screen and (max-width: 400px) {
+	video#bgvid {
+		max-width: 400px;
+		/*max-height: 200px;*/
+		min-height: 200px;
+		position: fixed;
+		z-index: -3;
+		top: 0;
+		margin-top: 10vh;
+	}
+
+}
+
+/*tablet style*/
+@media only screen and (min-width: 401px) and (max-width: 960px){
+	
+}
+
+
+/*desktop style*/
+@media only screen and (min-width: 961px){
+	
 }
