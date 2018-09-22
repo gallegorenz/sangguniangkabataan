@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	overflow-x: hidden;
+	
 
 }
 
@@ -139,18 +139,18 @@
 	/*transform: translateX(7vh);*/
 	width: 100vw;
 	text-align: center;
+	height: 50vh;
+	overflow: hidden;
 	
 }
 
+
 .img-center {
-	height: 250px;
-	width: 250px;
-	border-radius: 50% 50%;
+	height: 30vh;
+	width: 15vw;
 }
 
 .images-SK {
-	float: left;
-	padding-top: 22px;
 	animation-delay: 3.3s;
 	animation-duration: 2s;
 
@@ -161,6 +161,7 @@
 	color: white;
 	font-size: 6em;
 	animation-delay: 3.5s;
+	overflow: hidden;
 }
 
 #landing-text-qoute {
@@ -182,7 +183,7 @@ a.text-logo {
 }
 
 video#bgvid {
-  position: fixed;
+  /*position: fixed;*/
   right: 0; 
   bottom: 0;
   min-width: 100vw; 
@@ -191,17 +192,13 @@ video#bgvid {
   height: auto;
   z-index: -100;
   top: 0;
-  margin-top: -8.5vh;
+  margin-top: -6%;
  /* background:url(../images/ss-isangboto.png) no-repeat;
   background-size: cover;*/
 }
 
 
-
-
-#body-container {
-	position: absolute;
-	top: 67vh; 
+#body-cont {
 	background-color: white;
 	height: 100vh;
 	width: 100vw;
