@@ -52,25 +52,73 @@
       </div>
     </nav>
 
-    <div class="contianer mx-0 col-sm-12 px-0">    
-      <video id="bgvid" autoplay="" poster="assets/images/ss-isangboto.png" controls="controls">
-        <source src="assets/video/isangboto.mp4" type="video/mp4"> 
-      </video>
-    </div>
-    
-    <main class="contianer mx-0 px-0">
-      <div class="row mx-0" id="body-cont">
-        <div class="col-lg-12  mx-0">
-          <h1>hello world</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <section class="contianer mx-0 px-0">
+      <div class="row">
+        <div class="col-lg-12 col-sm-12">
+          <video id="bgvid" autoplay="" poster="assets/images/ss-isangboto.png" controls="controls" muted="">
+            <!-- <source src="assets/video/isangboto.mp4" type="video/mp4"> --> 
+          </video>
         </div>
       </div>
-    </main >   
+    </section>
+    
+    <section class="container">
+      <header class="row">
+        <!-- <div id="left-image-holder" class="col-lg-6 text-center" ><img src="assets/images/sangg.png">
+        </div>
+        <div id="right-image-holder" class="col-lg-6 text-center" ><img src="assets/images/kabat.png">
+        </div> -->
+        <!-- <div class="col-lg-2"></div> -->
+        <div class="col text-center">
+          <h1 class="heading-text mt-5">Sangguninang Kabataan</h1>
+          <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <!-- <div class="col-lg-2"></div> -->
+      </header>
+
+      <hr class="hr-design mt-5">
+
+      <div class="row mt-5">
+        <div class="col">
+          <h2 class="heading-second-text">Latest Projects</h2>
+          <section class="row">
+            <div class="col-lg-4 project-image-cont">
+              <div class="row text-center">
+                <div>
+                  <img src="assets/images/sk-calumpang-1.jpg" class="project-image">
+                </div>
+                <div>
+                  <img src="assets/images/sk-calumpang-2.jpg" class="project-image">
+                </div>
+              </div>
+              <div class="row text-center">
+                <div>
+                  <img src="assets/images/sk-calumpang-3.jpg" class="project-image">
+                </div>
+                <div>
+                  <img src="assets/images/sk-calumpang-4.jpg" class="project-image">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 project-text-cont justify">
+              <h3>SK Calumpang</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+   
 
 
 
@@ -98,14 +146,14 @@ $(document).ready(function(){
     var scroll = $(window).scrollTop();
     if (scroll > 100){
       $('.navbar').removeClass('bg-white');
-      $('.navbar').addClass('bg-dark');
-      $('.nav-link').removeClass('text-dark');
-      $('.nav-link').addClass('text-white');    
+      $('.navbar').addClass('bg-sk');
+      $('.nav-link').removeClass('text-white');
+      $('.nav-link').addClass('text-dark');    
     }
     else{
-      $('.navbar').removeClass('bg-dark');
-      $('.nav-link').removeClass('text-white');
-      $('.nav-link').addClass('text-dark');
+      $('.navbar').removeClass('bg-sk');
+      $('.nav-link').removeClass('text-dark');
+      $('.nav-link').addClass('text-white');
     }
 
   });

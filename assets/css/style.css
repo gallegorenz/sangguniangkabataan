@@ -177,7 +177,8 @@ a.text-logo {
 	text-decoration: none;
 }
 
-.bg-dark {
+.bg-sk {
+	background-color: #F7C331;
 	transition-duration: 2s;
 	transition: all linear .25s;
 }
@@ -197,12 +198,32 @@ video#bgvid {
   background-size: cover;*/
 }
 
-
-#body-cont {
-	background-color: white;
-	height: 100vh;
-	width: 100vw;
+.heading-text {
+	font-family: dead;
+	font-weight: 300;
+	font-size: 5em;
 }
+
+.heading-second-text {
+	font-family: dead;
+}
+
+.hr-design {
+	background-color:  #00459B;
+}
+
+.project-image {
+	height: 150px;
+	width: 150px;
+}
+/*#left-image-holder {
+	background-color:  #00459B; 
+}
+
+#right-image-holder {
+	background-color: #980819; 
+}*/
+
 
 
 
