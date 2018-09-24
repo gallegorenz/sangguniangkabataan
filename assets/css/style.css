@@ -201,7 +201,7 @@ video#bgvid {
 .heading-text {
 	font-family: dead;
 	font-weight: 300;
-	font-size: 5em;
+	font-size: 6em;
 }
 
 .heading-second-text {
@@ -212,10 +212,13 @@ video#bgvid {
 	background-color:  #00459B;
 }
 
+
 .project-image {
-	height: 150px;
-	width: 150px;
+	height: 120px;
+	width: 120px;
+	margin: 2px;
 }
+
 /*#left-image-holder {
 	background-color:  #00459B; 
 }
@@ -224,8 +227,14 @@ video#bgvid {
 	background-color: #980819; 
 }*/
 
+/*.project-textbox-shadow {
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+}
+*/
 
-
+.background-gray {
+	background-color: #F2F2F2;
+}
 
 
 
