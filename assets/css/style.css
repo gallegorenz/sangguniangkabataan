@@ -173,12 +173,24 @@
 
 /*start of homepage css*/
 
+#left-heading {
+	color: #0b1af0;
+}
+
+#right-heading {
+	color: #ff0015;
+}
+
+h3	{
+	font-family: 'dead';
+}
+
 a.text-logo {
 	text-decoration: none;
 }
 
 .bg-sk {
-	background-color: #F7C331;
+	background-color: #FFD101;
 	transition-duration: 2s;
 	transition: all linear .25s;
 }
@@ -187,11 +199,11 @@ video#bgvid {
   /*position: fixed;*/
   right: 0; 
   bottom: 0;
-  min-width: 100vw; 
+  min-width: 100%; 
   /*min-height: 100vh;*/
-  width: auto; 
-  height: auto;
-  z-index: -100;
+  /*width: auto; */
+  /*height: auto;*/
+  /*z-index: -100;*/
   top: 0;
   margin-top: -6%;
  /* background:url(../images/ss-isangboto.png) no-repeat;
@@ -232,10 +244,21 @@ video#bgvid {
 }
 */
 
+.img-sklogo{
+	height: 200px;
+	width: 200px;
+	margin: 2px;
+}
+
 .background-gray {
 	background-color: #F2F2F2;
 }
 
+footer {
+	height: 25vh;
+	width: 100vw;
+	background-color: #FFD101;
+}
 
 
 
@@ -275,13 +298,13 @@ video#bgvid {
 /*mobile style*/
 @media only screen and (max-width: 400px) {
 	video#bgvid {
-		max-width: 400px;
+		/*max-width: 400px;*/
 		/*max-height: 200px;*/
-		min-height: 200px;
+/*		min-height: 200px;
 		position: fixed;
 		z-index: -3;
 		top: 0;
-		margin-top: 10vh;
+		margin-top: 10vh;*/
 	}
 
 }
