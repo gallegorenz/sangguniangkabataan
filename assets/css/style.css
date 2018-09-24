@@ -218,6 +218,7 @@ video#bgvid {
 
 .heading-second-text {
 	font-family: dead;
+	font-size: 4em;
 }
 
 .hr-design {
@@ -225,11 +226,22 @@ video#bgvid {
 }
 
 
-.project-image {
+.project-cont {
+	/*border: none;*/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*.project-image {
 	height: 120px;
 	width: 120px;
 	margin: 2px;
 }
+
+.project-image2 {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+}*/
 
 /*#left-image-holder {
 	background-color:  #00459B; 
@@ -254,18 +266,24 @@ video#bgvid {
 	background-color: #F2F2F2;
 }
 
+/*footer style*/
+
 footer {
 	height: 25vh;
 	width: 100vw;
 	background-color: #FFD101;
 }
 
+.footer-img-logo {
+	height: 50px;
+	width: 50px;
+	margin: 5px;
+}
 
-
-
-
-
-
+.center-footer {
+	border-left: 2px solid white; 
+	border-right: 2px solid white; 
+}
 
 
 
