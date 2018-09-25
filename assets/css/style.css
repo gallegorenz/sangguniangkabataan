@@ -21,6 +21,14 @@ p {
 	font-family: 'Roboto Slab', serif;
 }
 
+.btn  {
+	background-color: #00459B;
+}
+
+.btn:hover {
+	background-color:  #ff0015;
+}
+
 
 @font-face {
     font-family: "built";
@@ -37,47 +45,7 @@ p {
     src:url("../font/CODE Bold.otf");
 }
 
-/*.j hr {
-	display: block;
-	height: 2px;
-	margin: 1em 0;
-	padding: 0;
-}
-
-.j {
-	background-color: transparent;
-	height: 100vh;
-	padding-top: 25vh;
-	padding-bottom: 25vh;
-	margin-bottom: 0px;
-}
-
-.j h1 {
-	color: #e9e9e9;
-	letter-spacing: 3px;
-}
-
-#j-landing {
-	background-color: #141414;
-	margin: 0 auto;
-	width: 100%;
-}
-
-#landing-button {
-	font-weight: 700;
-}
-
-#landing-button:hover {
-	color: #141414;
-	font-weight: 700;
-}*/
-
-/*Home CSS*/
-
-/*.slider {
-	height: 600px;
-}
-*/
+/*landing page*/
 
 #cont {
 	overflow: hidden;
@@ -314,6 +282,20 @@ video#bgvid {
 
 /*contact style*/
 
+.label-text {
+	padding: 0;
+	font-family: 'Roboto Slab', serif;
+}
+
+#submit {
+	width: 100%;
+}
+
+/*project style*/
+
+.card-project {
+	border: none;
+}
 
 /*footer style*/
 
