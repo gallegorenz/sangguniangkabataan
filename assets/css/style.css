@@ -6,6 +6,21 @@
 
 }
 
+body {
+	background-image: url(../images/bg-3.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+p {
+	/*font-family: 'PT Sans', sans-serif;*/
+	font-family: 'Roboto Slab', serif;
+}
+
 
 @font-face {
     font-family: "built";
@@ -175,11 +190,13 @@
 
 #left-heading {
 	color: #0b1af0;
+
 }
 
 #right-heading {
 	color: #ff0015;
 }
+
 
 h3	{
 	font-family: 'dead';
@@ -187,6 +204,15 @@ h3	{
 
 a.text-logo {
 	text-decoration: none;
+	font-family: 'dead';
+	font-size: 2em;
+}
+
+.nav-link {
+	font-size: 1.25em;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-family: 'Roboto Slab', serif;
 }
 
 .bg-sk {
@@ -213,7 +239,7 @@ video#bgvid {
 .heading-text {
 	font-family: dead;
 	font-weight: 300;
-	font-size: 6em;
+	font-size: 9em;
 }
 
 .heading-second-text {
@@ -223,12 +249,18 @@ video#bgvid {
 
 .hr-design {
 	background-color:  #00459B;
+	height: 5px;
+}
+
+.hr-design-2 {
+	background-color:  #ff0015;
+	height: 5px;
 }
 
 
 .project-cont {
-	/*border: none;*/
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+	border: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*.project-image {
@@ -257,19 +289,35 @@ video#bgvid {
 */
 
 .img-sklogo{
-	height: 200px;
-	width: 200px;
+	height: 250px;
+	width: 250px;
 	margin: 2px;
 }
 
-.background-gray {
-	background-color: #F2F2F2;
+.background-white {
+	background-color: white;
 }
+
+
+/*about style*/
+
+.about-center-heading {
+	font-family: 'dead';
+	font-size: 7em;
+	color: #FFD101;
+}
+
+.image-about {
+	height: 600px;
+	width: 600px;
+}
+
+/*contact style*/
+
 
 /*footer style*/
 
 footer {
-	height: 25vh;
 	width: 100vw;
 	background-color: #FFD101;
 }
@@ -281,8 +329,9 @@ footer {
 }
 
 .center-footer {
-	border-left: 2px solid white; 
-	border-right: 2px solid white; 
+	/*border-left: 2px solid white; 
+	border-right: 2px solid white;*/
+	height: 30vh; 
 }
 
 
