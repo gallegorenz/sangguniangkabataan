@@ -16,6 +16,10 @@ body {
 
 }
 
+#main-body {
+	background-color: white;
+}
+
 p {
 	/*font-family: 'PT Sans', sans-serif;*/
 	font-family: 'Roboto Slab', serif;
@@ -156,6 +160,10 @@ p {
 
 /*start of homepage css*/
 
+.current-page {
+	color: #FFD101;
+}
+
 #left-heading {
 	color: #0b1af0;
 
@@ -177,11 +185,12 @@ a.text-logo {
 }
 
 .nav-link {
-	font-size: 1.25em;
+	font-size: 1em;
 	margin-right: 10px;
 	margin-left: 10px;
 	font-family: 'Roboto Slab', serif;
 }
+
 
 .bg-sk {
 	background-color: #FFD101;
@@ -208,11 +217,17 @@ video#bgvid {
 	font-family: dead;
 	font-weight: 300;
 	font-size: 9em;
+	animation-delay: 1s;
+}
+
+.description-page {
+	animation-delay: 1.5s;
 }
 
 .heading-second-text {
 	font-family: dead;
 	font-size: 4em;
+
 }
 
 .hr-design {
@@ -231,30 +246,6 @@ video#bgvid {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/*.project-image {
-	height: 120px;
-	width: 120px;
-	margin: 2px;
-}
-
-.project-image2 {
-	height: 250px;
-	width: 250px;
-	border-radius: 50%;
-}*/
-
-/*#left-image-holder {
-	background-color:  #00459B; 
-}
-
-#right-image-holder {
-	background-color: #980819; 
-}*/
-
-/*.project-textbox-shadow {
-	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
-}
-*/
 
 .img-sklogo{
 	height: 250px;
@@ -273,11 +264,12 @@ video#bgvid {
 	font-family: 'dead';
 	font-size: 7em;
 	color: #FFD101;
+	animation-delay: .5s;
 }
 
 .image-about {
-	height: 600px;
-	width: 600px;
+	height: 250px;
+	width: 250px;
 }
 
 /*contact style*/
@@ -296,6 +288,15 @@ video#bgvid {
 .card-project {
 	border: none;
 }
+
+.ovrlay-background {
+	background-color: rgba(255, 253, 253, 0.4);
+}
+
+#selected {
+	background-color: #ff0015;
+}
+
 
 /*footer style*/
 
@@ -316,6 +317,18 @@ footer {
 	height: 30vh; 
 }
 
+.icon {
+	padding: 5px;
+}
+
+.icon:hover {
+	color: black;
+}
+
+.footer-text {
+	font-weight: 300;
+	font-family: 'Roboto Slab', serif;
+}
 
 
 
