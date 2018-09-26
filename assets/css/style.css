@@ -134,12 +134,14 @@ p {
 
 .img-center {
 	height: 30vh;
-	width: 15vw;
+	/*width: 15vw;*/
+
 }
 
 .images-SK {
 	animation-delay: 3.3s;
 	animation-duration: 2s;
+	z-index: 3;
 
 }
 
@@ -214,7 +216,7 @@ video#bgvid {
 }
 
 .heading-text {
-	font-family: dead;
+	font-family: 'dead';
 	font-weight: 300;
 	font-size: 9em;
 	animation-delay: 1s;
@@ -225,7 +227,7 @@ video#bgvid {
 }
 
 .heading-second-text {
-	font-family: dead;
+	font-family: 'dead';
 	font-size: 4em;
 
 }
@@ -331,34 +333,24 @@ footer {
 }
 
 
+/*tablet style*/
+@media only screen and (min-width: 401px) and (max-width: 960px){
+	
+	/*landing page style*/
 
+	.landing-text {
+		font-size: 4.5em;
+	}
 
+	#landing-text-qoute {
+		font-family: 'code';
+		color: white;
+		font-size: 2em;
+		animation-delay: 4.5s;
+	}
 
+	/*home style*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*mobile style*/
-@media only screen and (max-width: 400px) {
 	video#bgvid {
 		/*max-width: 400px;*/
 		/*max-height: 200px;*/
@@ -367,17 +359,122 @@ footer {
 		z-index: -3;
 		top: 0;
 		margin-top: 10vh;*/
+		margin-top: 5%;
 	}
 
+	.navbar-nav {
+		text-align: center;
+	}
+
+	.navbar-nav, .navbar {
+		background-color: #FFD101;
+		
+	}
+
+	.current-page {
+		color: white;
+	}
+
+	#vid-about {
+		width: 100%;
+		height: auto;
+	}
+
+	.heading-text {
+		font-family: 'dead';
+		font-weight: 300;
+		font-size:4.5em;
+		animation-delay: 1s;
+	}
 }
 
-/*tablet style*/
-@media only screen and (min-width: 401px) and (max-width: 960px){
-	
-}
+
+/*mobile style*/
+@media only screen and (max-width: 400px) {
+
+	/*landing page style*/
+
+	.landing-text {
+		font-size: 2.5em;
+	}
+
+	#landing-text-qoute {
+		font-family: 'code';
+		color: white;
+		font-size: 1em;
+		animation-delay: 4.5s;
+	}
+
+	/*home style*/
+
+	.navbar-nav {
+		text-align: center;
+	}
+
+	.navbar-nav, .navbar {
+		background-color: #FFD101;
+
+	}
+
+	.current-page {
+		color: white;
+	}
 
 
-/*desktop style*/
-@media only screen and (min-width: 961px){
-	
+	video#bgvid {
+		/*max-width: 400px;*/
+		/*max-height: 200px;*/
+/*		min-height: 200px;
+		position: fixed;
+		z-index: -3;
+		top: 0;
+		margin-top: 10vh;*/
+		margin-top: 20%;
+	}
+
+	#vid-about {
+		width: 100%;
+		height: auto;
+	}
+
+	a.text-logo {
+		text-decoration: none;
+		font-family: 'dead';
+		font-size: 1.2em;
+	}
+
+	.heading-text {
+		font-family: 'dead';
+		font-weight: 300;
+		font-size:4em;
+		animation-delay: 1s;
+	}
+
+	.heading-second-text {
+		font-family: 'dead';
+		font-size: 3em;
+
+	}
+	.about-center-heading {
+		font-family: 'dead';
+		font-size: 3em;
+		color: #FFD101;
+		animation-delay: .5s;
+	}
+
+	.project-cont {
+		margin: 0 auto;
+	}
+
+	.qoute-style {
+		text-align: center;
+	}
+
+	/*project style*/
+
+
+	/*about style*/
+
+
+
 }
