@@ -8,7 +8,7 @@
 
     <link rel="icon" href="assets/images/sk-logo.png" type="image/gif" sizes="64x64">
 
-    <title>Sangguniang Kabataan | Project</title>
+    <title>Sangguniang Kabataan | Sikad Kabataan</title>
 
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -16,6 +16,7 @@
     <link href="assets/css/hover.css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="asstes/css/lightbox.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <!-- script -->
@@ -23,6 +24,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/js/wow.min.js"></script>
+    <script type="text/javascript" src="assets/lightbox.js"></script>
 
   
   </head>
@@ -40,7 +42,7 @@
             <a class="nav-link text-dark" href="home.html" target="_blank">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#"><span class="current-page">Projects</span></a>
+            <a class="nav-link text-dark" href="project.html"><span class="current-page">Projects</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-dark" href="about.html" target="_blank">About</a>
@@ -56,7 +58,7 @@
       <header class="row">
         <div class="col-12 text-center mt-5">
           <span class="about-center-heading animated fadeIn">Sangguniang Kabataan</span>
-          <h1 class="heading-text animated fadeIn"><span id="left-heading">In</span> <span id="right-heading">Action</span></h1>
+          <h1 class="heading-text animated fadeIn"><span id="left-heading">Sikad</span> <span id="right-heading">Kabataan</span></h1>
         </div>
       </header>
     </section>
@@ -64,12 +66,13 @@
     <section class="container">
         <div class="row">
           <div class="col text-center">
-            <p class="mt-3 description-page animated fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="mt-3 description-page animated fadeInDown">Magandang Gabi sa inyong lahat!
+
+            Bilang Pagdiriwang sa taunang Barrio Fiesta ng aming Barangay ng Bintog, malugod po namin kayong inaanyayahan sa isang programa na aming isasagawa: Sangguniang Kabataan Bintog, sa tulong ng ating Sangguniang Barangay. Ang SIKAD KABATAAN MARATHON 2018 (Mountain Bike Challenge) kung saan isa po itong pagsasakatuparan sa kahilingin ng mga Kabataan mula sa Barangay ng Bintog!
+
+            Pauna na po ang aming pasasalamat sa tumulong upang maisagawa ang unang hakbang ng pagpplano: Brgy. Captain Raymond Bell at G. Raffy Jake Pingol Cervantes na miyembro ng Bintog Team Bikers.
+
+            Mangyari lamang po na tignan ang mga detalye para sa mga nais lumahok sa nasabing aktibidad! Maraming Salamat po! -SK Chairperson Monette Lumague</p>
           </div>
         </div>
         <!-- <div class="col-lg-2"></div> -->
@@ -82,21 +85,16 @@
     <div class="container-fluid pt-4 pb-4">
       <div class="row project-imgs">
         <div class="col-lg-4 col-sm-12">
-          <a href="#">
-          <div class="card bg-dark text-white card-project hvr-shrink">
-            <img class="card-img" src="assets/images/kk-staines.jpg" alt="Card image">
-          </div>
-          </a>
-          <a href="#">
-          <div class="card bg-dark text-white mt-3 card-project hvr-shrink wow slideInUp">
-            <img class="card-img" src="assets/images/kk-sanjose.jpg" alt="Card image">
+          <a href="assets/images/sk-sikad-2.jpg" data-lightbox="sikad">
+          <div class="card bg-dark text-white card-project">
+            <img class="card-img sikad-kabataan" src="assets/images/sk-sikad-2.jpg" alt="Card image">
           </div>
           </a>
         </div>
         <div class="col-lg-8 col-sm-12">
-          <a href="gallery.html">
-            <div class="card bg-dark text-white card-project hvr-shrink">
-              <img class="card-img  animate slideInUp" src="assets/images/sk-sikad.png" alt="Card image">
+          <a href="assets/images/sk-sikad-10.jpg" data-lightbox="sikad">
+            <div class="card bg-dark text-white card-project">
+              <img class="card-img img-fluid" src="assets/images/sk-sikad-10.jpg" alt="Card image">
             </div>
           </a>
         </div>
@@ -105,22 +103,22 @@
       <div class="row mt-3 project-imgs">
         <div class="col-lg-4 col-sm-12">
           <a href="#">
-            <div class="card bg-dark text-white card-project hvr-shrink wow slideInUp" data-wow-delay=".5s">
-              <img class="card-img " src="assets/images/kk-parulan.jpg" alt="Card image">
+            <div class="card bg-dark text-white card-project">
+              <img class="card-img sikad-kabataan" src="assets/images/sk-sikad-4.jpg" alt="Card image">
             </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-12">
           <a href="#">
-          <div class="card bg-dark text-white card-project hvr-shrink wow slideInUp">
-            <img class="card-img" src="assets/images/kk-bitog.jpg" alt="Card image">
+          <div class="card bg-dark text-white card-project">
+            <img class="card-img sikad-kabataan" src="assets/images/sk-sikad-5.jpg" alt="Card image">
           </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-12">
           <a href="#">
-          <div class="card bg-dark text-white card-project hvr-shrink wow slideInUp" data-wow-delay=".5s">
-            <img class="card-img" src="assets/images/kk-dampol.jpg" alt="Card image">
+          <div class="card bg-dark text-white card-project">
+            <img class="card-img sikad-kabataan img-fluid" src="assets/images/sk-sikad-6.jpg" alt="Card image">
           </div>
           </a>
         </div>
@@ -128,33 +126,19 @@
       <div class="row mt-3 project-imgs">
         <div class="col-lg-8 col-sm-12">
           <a href="#">
-            <div class="card bg-dark text-white card-project hvr-shrink wow slideInUp" data-wow-delay=".5s">
-              <img class="card-img " src="assets/images/sk-skul.jpg" alt="Card image">
+            <div class="card bg-dark text-white card-project">
+              <img class="card-img" src="assets/images/sk-sikad-1.jpg" alt="Card image">
             </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-12">
           <a href="#">
-          <div class="card bg-dark text-white card-project hvr-shrink wow slideInUp" data-wow-delay=".5s">
-            <img class="card-img" src="assets/images/kk-lagundi.jpg" alt="Card image">
-          </div>
-          </a>
-          <a href="#">
-          <div class="card bg-dark text-white mt-3 card-project hvr-shrink wow slideInUp" data-wow-delay=".5s">
-            <img class="card-img" src="assets/images/sk-sining.jpg" alt="Card image">
+          <div class="card bg-dark text-white card-project">
+            <img class="card-img sikad-kabataan" src="assets/images/sk-sikad-7.jpg" alt="Card image">
           </div>
           </a>
         </div>
       </div>
-
-      <div class="row pt-3">
-        <div class="col-12  text-center">
-          <button id="selected" class="btn text-white">1</button>
-          <button id="" class="btn text-white">2</button>
-          <button id="" class="btn text-white">3</button>
-        </div>
-      </div>
-
       
     </div>
 
@@ -163,12 +147,12 @@
     <div class="container-fluid mt-4 pb-4">
       <div class="row">
         <div class="col-lg-4 text-center wow rollIn" data-wow-delay=".5s">
-          <img src="assets/images/bam.png">
+          <img src="assets/images/bunso.png">
         </div>
         <div class="col-lg-8  mt-5 qoute-style">
-          <h5>Senator Bam Aquino on Sangguniang Kabataan:</h5>
-          <blockquote cite="http://www.bamaquino.com/sen-bam-vote-barangay-sk-leaders-will-protect/"  class="wow jackInTheBox" data-wow-delay="1.2s">
-            <q>Piliin natin ang mga pinunong lalaban para sa komunidad, malinis, tapat at walang kinalaman sa anumang krimen,Piliin natin ang pinuno na sisiguraduhing ligtas ang ating mga komunidad sa mga krimen at pang aabuso ng mga nasa kapangyarihan.</q>
+          <h5>SK Chairperson Monette Lumague on Sikad Kabataan:</h5>
+          <blockquote cite=""  class="wow jackInTheBox" data-wow-delay="1.2s">
+            <q>Maraming maraming salamat po sa pagsuporta at pakikilahok sa aming unang proyekto na Sikad Kabataan. Makaaasa po kayo na hindi po ito ang huling beses na kami ay magsasagawa ng mga proyekto para sa ating kabataan, hindi lamang po sa Bintog kundi pati na rin po sa buong Plaridel! Muli po ang taos puso kong pasasamat sa inyong lahat! Plaridel Diretso sa Progreso!</q>
           </blockquote>
         </div>
       </div>
@@ -199,7 +183,7 @@
           <div class="row pt-3">
             <div class="col">
              <a href="home.html" target="_blank"><span>Home</span></a>
-             <a href="projects.html"><span>Projects</span></a>
+             <a href="#" target="_blank"><span>Projects</span></a>
              <a href="about.html" target="_blank"><span>About</span></a>
              <a href="contact.html" target="_blank"><span>Contact Us</span></a>
             </div>
